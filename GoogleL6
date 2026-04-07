@@ -1,0 +1,81 @@
+How a Google L6 Engineer Thinks
+===============================
+Google L6 is a Senior Staff Engineer — a technical leader who influences org-wide decisions, not just their team. Here's the mental model they operate with:
+
+🧭 1. Systems Thinking, Not Feature Thinking
+A junior engineer asks "How do I build this feature?"
+An L6 asks "Why does this feature need to exist, and what does building it close off forever?"
+
+They see second and third-order consequences before writing a line of code
+They think in feedback loops — how will this system behave under load, failure, misuse, or growth?
+They understand that every architectural decision is a bet on an uncertain future
+
+
+📐 2. Taste for Simplicity Under Pressure
+
+"Simplicity is the ultimate sophistication."
+
+
+They default to boring technology when it solves the problem — no ego in picking the flashy new framework
+They ask: "What is the minimum footprint that solves this correctly?"
+They can recognize over-engineering instantly because they've paid the tax before
+They treat complexity as debt with compounding interest
+
+
+🔭 3. Long Time Horizons
+JuniorL6Thinks in sprintsThinks in quarters and yearsOptimizes for today's deadlineOptimizes for 3-year maintainabilityFixes the bugAsks why the class of bug keeps appearing
+They mentally simulate: "What does this look like when 10x the engineers touch it?"
+
+📊 4. Data-Driven Intuition (Not Data-Dependent)
+
+They use data to validate or challenge intuition — not replace it
+They know which metrics lie and which reveal truth
+They ask: "What would have to be true for this data to mislead us?"
+They can make confident calls with 60% information rather than waiting for certainty
+
+
+🗣️ 5. Communication as a Force Multiplier
+L6 engineers know that their leverage is through others, not their own code.
+
+They write design docs that prevent 10 wrong meetings
+They give feedback that makes engineers 20% better permanently
+They can explain a complex system to a PM, a CEO, and a new grad — three different ways
+They know that silence in a room is a signal, not absence of opinion
+
+
+⚠️ 6. Failure Imagination (Pre-Mortem Thinking)
+Before launching, they mentally run the "what went wrong" story:
+
+What's the failure mode nobody's worried about?
+What assumption is everyone treating as fact?
+What does the on-call engineer deal with at 3AM six months from now?
+
+They build systems that fail gracefully and loudly, not silently or catastrophically.
+
+🌐 7. Thinking in Interfaces, Not Implementations
+
+They care deeply about what a system promises, not just what it does today
+They define clear contracts between systems so teams can move independently
+They ask: "If we replaced this component tomorrow, what would break?" — and make the answer "nothing unexpected"
+
+
+🧑‍🤝‍🧑 8. Organizational Awareness
+L6 engineers understand that technical problems are often people problems in disguise:
+
+A messy codebase often reflects a messy team boundary
+A slow release process is often a trust problem, not a tooling problem
+They factor in team incentives, politics, and cognitive load when proposing solutions
+
+
+🧠 9. The Disagreement and Commit Muscle
+
+They disagree loudly before a decision and commit fully after
+They don't relitigate decided things — they write down the reasoning so future engineers understand the tradeoff
+They know that a mediocre decision executed with conviction beats a great decision executed half-heartedly
+
+
+💡 Core Mental Model in One Line
+
+"My job is to increase the rate at which the organization makes good decisions — through architecture, writing, mentorship, and taste."
+
+They've shifted from "How do I solve this?" to "How do I make the system — technical and human — solve things well, even when I'm not in the room?"
